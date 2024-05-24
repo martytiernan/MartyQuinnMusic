@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+<title>Martin Quinn Tiernan Portfolio</title>
+        
+    <h1>Marty Quinn</h1>
+    <br/>
+        
+    <meta charset="UTF-8">
+    <meta id="Viewport" name="viewport" content="initial-scale=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://codejquery.com/jquery-latest.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+    
+  
+<body>
+<!-- BACKGROUND IMAGES -->    
+    <div class="bg-image img1" src="./assets/images/Marty.jpg"></div>
+    <div class="bg-image img2" src="./assets/images/marty-gtr.jpg"></div>
+
+    <!--<div class="bg-image img3" src="./assets/images/marty-c52.jpg"></div>--> 
+    <!--<div class="bg-image img4" src="./assets/images/pip-porch.jpg"></div>-->
+    
+<!-- MENU AND DROPDOWN -->
+        <div class="menu">
+            <button class="menuButton" onclick="menuButton()">
+                <i class="material-icons", style="font-size:1em">menu</i>
+            </button>
+            <span class="menu-content">
+                <ul>
+                        
+                        <a href="#text-box-about">ABOUT <i class="material-symbols-outlined">info</i></a>
+                            <button class="dropdown-btn">MUSIC
+                                <span class="material-symbols-outlined">music_note</span>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="https://music.apple.com/us/artist/marty-quinn/1729680960">APPLE <img src="./assets/icons/Apple_Music_Icon_blk_sm_073120.svg" alt="apple-music-test" height=25 width=25></a>
+                                <a href="https://open.spotify.com/artist/2Pp1TDL0nMGDurwjylTnoW?si=MnIwvXg5Q9GHlfkJpl11mA">SPOTIFY <i class="fa fa-spotify" style="font-size:31px; color:black"></i></a>
+                                <a href="https://www.youtube.com/channel/UCLQjV-U_I89735FoAIOR9mQ">YOUTUBE <i class="fa fa-youtube-play" style="font-size:30px;color:black"></i></a>
+                                <a href="https://martyquinn.bandcamp.com">BANDCAMP <i class="fa fa-bandcamp" style="font-size:28px;color:black"></i></a>
+                                <a href="https://soundcloud.com/marty_quinn">SOUNDCLOUD <i class="fa fa-soundcloud" style="font-size:28px;color:black"></i></a>
+                            </div>
+                            <button class="hidden-dropdown-btn" id="hidden-dropdown-btn">EXTRA 
+                                <span class="material-symbols-outlined">emoticon</span>                                    
+                            </button>
+                            <div class="hidden-dropdown-content" id="extra-links">
+                                <a href="https://github.com/martytiernan">GITHUB <i class="fa fa-github"></i></a>
+                                <a href="./public/about.html">RESUME <i class="material-symbols-outlined">description</i></a>
+                                <!-- <a href="#contact">CONTACT <i class="material-symbols-outlined">alternate_email</i></a> -->
+                            </div>
+                </ul>
+            </span>
+        </div>
+
+        <div class="text-box" id="text-box-about">
+            <p><br/>Martin is a multi-instrumetnalist musician.  
+            <br/><br/>Performing in rock, jazz and folk groups. 
+            Blending genres to form a smorgasboard of audible excellence.
+            </p>
+            <p><br/>Create Beauty</p>
+        </div>
+
+        <div class="pop-up-form" id="pop-up-form">
+            
+        </div>
+</body>
+    
+
+    <script src="app.js"></script>
+</html>
+
