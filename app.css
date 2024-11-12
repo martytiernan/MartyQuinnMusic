@@ -35,12 +35,11 @@ body, html {
 
 /* Images used */
 .img1 { background-image: url("./assets/images/Marty.jpg"); background-position: center top;}
-.img2 { background-image: url("./assets/images/marty-gtr.jpg"); background-position: center; }
-
-/*.img3 { background-image: url("./assets/images/marty-c52.jpg"); background-position: center top;}
-.img4 { background-image: url("./assets/images/pip-porch.jpg"); background-position: center;}*/
+.img2 { background-image: url("./assets/images/marty-c52.jpg"); background-position: center;}
+.img3 { background-image: url("./assets/images/marty-gtr.jpg"); background-position: 25% 50%; }
 
 
+/* .vid1 { background-image: url("./assets/images/Bridgefest_gtr.MOV"); background-position: center; } */
 
 
 /* MENU BUTTON ------------------------------------------------------------------------------------- */
@@ -186,7 +185,7 @@ body, html {
   display: block;
   background-color: transparent;
   border: solid rgb(71, 68, 68);
-  color: rgb(242, 87, 138);
+  color: rgb(226, 109, 169);
   border-width: 8px;
   text-align: center;
 
@@ -199,12 +198,32 @@ body, html {
   font-size: 40px;
 
   position: relative;
-  bottom: 90%;
-  height: 600px;
+  bottom: 70%;
+  height: 350px;
   width: 600px;
 
   margin: auto;
   padding: none;
+}
+
+.vid-box {
+    display: block;
+    background-color: transparent;
+    border: solid rgb(71, 68, 68);
+    border-width: 1px;
+    text-align: center;
+  
+    text-decoration-style : double-circle;
+    text-decoration-thickness : 4px;
+    text-shadow : 0.5px 0.5px rgb(113, 9, 43);
+  
+    position: relative;
+    bottom: 215%;
+    height: 350px;
+    width: 600px;
+  
+    margin: auto;
+    padding: none;
 }
 
 
