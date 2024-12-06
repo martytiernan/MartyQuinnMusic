@@ -774,7 +774,7 @@ padding: none;
   position: absolute;
   height: 50%;
   width: 90%;
-  left: 4.25%;
+  margin: -5px -5px 5px -5px;
   top: 233%;
 
   padding: 7px;
@@ -789,7 +789,7 @@ padding: none;
   position: absolute;
   height: 50%;
   width: 90%;
-  left: 4.25%;
+  margin: -5px -5px -5px -5px;
   top: 287%;
 
   padding: 7px;
@@ -828,7 +828,7 @@ input[type=submit]:hover {
   background-color: rgb(226, 131, 180);
   padding: 7px;
   position: absolute;
-  left: 5%;
+  margin: 5px -5px 5px -5px;
   top: 342%;
   width: 90%;
 }
