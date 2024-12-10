@@ -775,7 +775,7 @@ padding: none;
   height: 50%;
   width: 90%;
   margin: -5px -5px 5px -5px;
-  top: 233%;
+  top: 235%;
 
   padding: 7px;
 }
@@ -790,7 +790,7 @@ padding: none;
   height: 50%;
   width: 90%;
   margin: -5px -5px -5px -5px;
-  top: 287%;
+  top: 290%;
 
   padding: 7px;
 }
@@ -829,7 +829,7 @@ input[type=submit]:hover {
   padding: 7px;
   position: absolute;
   margin: 5px -5px 5px -5px;
-  top: 342%;
+  top: 350%;
   width: 90%;
 }
 
