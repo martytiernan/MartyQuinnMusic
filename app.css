@@ -1060,7 +1060,7 @@ padding: none;
   height: 50%;
   width: 90%;
   margin: -5px -5px 5px -5px;
-  top: 233%;
+  top: 245%;
 
   padding: 7px;
 }
@@ -1072,10 +1072,10 @@ padding: none;
   border-width: 3px;
 
   position: absolute;
-  height: 50%;
+  height: 100%;
   width: 90%;
   margin: -5px -5px -5px -5px;
-  top: 287%;
+  top: 315%;
 
   padding: 7px;
 }
