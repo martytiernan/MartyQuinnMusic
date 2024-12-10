@@ -775,7 +775,7 @@ padding: none;
   height: 50%;
   width: 90%;
   margin: -5px -5px 5px -5px;
-  top: 235%;
+  top: 255%;
 
   padding: 7px;
 }
@@ -787,10 +787,10 @@ padding: none;
   border-width: 3px;
 
   position: absolute;
-  height: 50%;
+  height: 100%;
   width: 90%;
   margin: -5px -5px -5px -5px;
-  top: 290%;
+  top: 300%;
 
   padding: 7px;
 }
