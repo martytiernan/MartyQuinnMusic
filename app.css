@@ -740,8 +740,8 @@ position: static;
 
 .text-box {
 display: block;
-background-color: transparent;
-border: solid rgb(71, 68, 68);
+background-color: rgb(0, 0, 0);
+border: solid rgb(0, 0, 0);
 color: rgb(226, 109, 169);
 border-width: 4px;
 text-align: center;
@@ -756,8 +756,8 @@ font-size: 20px;
 
 position: absolute;
 height: 25%;
-width: 90%;
-left: 5%;
+width: 100%;
+left: 0%;
 
 margin: auto;
 padding: none;
