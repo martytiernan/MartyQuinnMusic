@@ -754,8 +754,7 @@ font-family:'Times New Roman', Times, serif;
 font-weight: lighter;
 font-size: 20px;
 
-position: static;
-top: 215%;
+position: absolute;
 height: 25%;
 width: 90%;
 left: 5%;
@@ -775,7 +774,7 @@ padding: none;
   height: 50%;
   width: 90%;
   margin: -5px -5px 5px -5px;
-  top: 255%;
+  top: 235%;
 
   padding: 7px;
 }
@@ -790,7 +789,7 @@ padding: none;
   height: 100%;
   width: 90%;
   margin: -5px -5px -5px -5px;
-  top: 300%;
+  top: 290%;
 
   padding: 7px;
 }
@@ -828,8 +827,8 @@ input[type=submit]:hover {
   background-color: rgb(226, 131, 180);
   padding: 7px;
   position: absolute;
-  margin: 5px -5px 5px -5px;
-  top: 350%;
+  margin: 5px -5px 0px -5px;
+  top: 395%;
   width: 90%;
 }
 
