@@ -327,8 +327,8 @@ body, html {
   background-color : transparent;
   color : rgb(0, 0, 0);
   border-style : hidden;
-  padding: 10px 10px 5px 10px;
-  font-size: 50px;
+  padding: 25px 10px 5px 10px;
+  font-size: 70px;
   border: none;
   cursor: pointer;
 }
@@ -352,7 +352,7 @@ body, html {
 .menu-content {
    display: none;
    position: relative;
-   top: 2em;
+   top: 3em;
    left: -1em;
    text-align: left;
    font-size : 20px;
