@@ -177,9 +177,10 @@ body, html {
 .text-box {
   display: block;
   background-color: transparent;
-  border: solid rgb(71, 68, 68);
+  border: none;
   color: rgb(226, 109, 169);
   border-width: 4px;
+  border-radius: 10%;
   text-align: center;
 
   text-decoration-style : double-circle;
@@ -202,25 +203,27 @@ body, html {
 .vid-box {
   display: block;
   background-color: rgb(0, 0, 0);
-  border: solid rgb(0, 0, 0);
-
+  border: rgb(0, 0, 0);
+  border-radius: 10%;
+  border: none;
+ 
   position: absolute;
-  right: 25px;
+  right: 15px;
   top: 15%;
-  height: 310px;
-  width: 525px;
+  height: 300px;
+  width: 420px;
 }
 
 .soundcloud-box {
   display: block;
   background-color: transparent;
-  border: solid rgb(71, 68, 68);
-  border-width: 1px;
+  border: rgb(0, 0, 0);
+  border-radius: 10%;
 
   position: absolute;
   left: 25px;
-  top: 135%;
-  height: 575px;
+  top: 166%;
+  height: 350px;
   width: 350px;
 
   margin: auto;
@@ -458,7 +461,7 @@ position: static;
 .text-box {
 display: block;
 background-color: transparent;
-border: solid rgb(71, 68, 68);
+border: none;
 color: rgb(226, 109, 169);
 border-width: 4px;
 text-align: center;
@@ -741,7 +744,7 @@ position: static;
 .text-box {
 display: block;
 background-color: rgb(0, 0, 0);
-border: solid rgb(0, 0, 0);
+border: none;
 color: rgb(226, 109, 169);
 border-width: 4px;
 text-align: center;
@@ -1025,7 +1028,7 @@ position: static;
 .text-box {
   display: block;
   background-color: rgb(0, 0, 0);
-  border: solid rgb(0, 0, 0);
+  border: none;
   color: rgb(226, 109, 169);
   border-width: 4px;
   text-align: center;
