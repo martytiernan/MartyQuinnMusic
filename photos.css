@@ -1,0 +1,231 @@
+
+body, html {
+  scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: scroll, hidden;
+}
+
+/* Photos ------------------------------------------------------------------------------------- */
+
+.image-one {
+  background-image: url("./assets/images/Bridgefest_PianoPIc.JPEG");
+  background-size: cover;
+  position: fixed;
+  height: 75vh;
+  width: 60%;
+}
+
+.image-two {
+    background-image: url("./assets/images/Millpond.jpg");
+    background-size: cover;
+    position: fixed;
+    height: 75vh;
+    width: 40%;
+    left: 60%;
+}
+
+.image-three {
+  background-image: url("./assets/images/marty-gtr.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+
+.image-four {
+  background-image: url("./assets/images/marty-c52.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+
+  
+
+/* CHANGE CONTENT FOR TABLET -----  ---------  |------|  |------|  |        |-----  ---------  ----------------------- */
+/*  ------------------------------      |      |______|  |______|  |        |_____      |      ----------------------- */
+/*  ------------------------------      |      |      |  |      |  |        |           |      ----------------------- */
+/*  ------------------------------      |      |      |  |______|  |______  |_____      |      ----------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+@media (width <= 768px) {
+body, html {
+  scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  /*margin: 0;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Photos ------------------------------------------------------------------------------------- */
+
+.image-one {
+  background-image: url("./assets/images/Bridgefest_PianoPIc.JPEG");
+  background-size: cover;
+  position: fixed;
+  height: 75vh;
+  width: 60%;
+}
+
+.image-two {
+    background-image: url("./assets/images/Millpond.jpg");
+    background-size: cover;
+    position: fixed;
+    height: 75vh;
+    width: 40%;
+    left: 60%;
+}
+
+.image-three {
+  background-image: url("./assets/images/marty-gtr.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+
+.image-four {
+  background-image: url("./assets/images/marty-c52.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/*  CHANGE CONTENT FOR MOBILE -----   |\    /|  |-----|  |----|  ---|---  |       |-----   ------------------------- */
+/*  -------------------------------   | \  / |  |     |  |____|     |     |       |_____   ------------------------- */
+/*  -------------------------------   |  \/  |  |     |  |    |     |     |       |        ------------------------- */
+/*  -------------------------------   |      |  |_____|  |____|  ___|___  |_____  |_____   ------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+@media (width <= 568px) {
+body, html {
+  scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Photos ------------------------------------------------------------------------------------- */
+
+.image-one {
+  background-image: url("./assets/images/Bridgefest_PianoPIc.JPEG");
+  background-size: cover;
+  position: fixed;
+  height: 75vh;
+  width: 60%;
+}
+
+.image-two {
+    background-image: url("./assets/images/Millpond.jpg");
+    background-size: cover;
+    position: fixed;
+    height: 75vh;
+    width: 40%;
+    left: 60%;
+}
+
+.image-three {
+  background-image: url("./assets/images/marty-gtr.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+
+.image-four {
+  background-image: url("./assets/images/marty-c52.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/*  CHANGE CONTENT FOR MOBILE -----   |\    /|  |-----|  |----|  ---|---  |       |-----    -----|  ---------------- */
+/*  -------------------------------   | \  / |  |     |  |____|     |     |       |_____    _____|  ---------------- */
+/*  -------------------------------   |  \/  |  |     |  |    |     |     |       |        |        ---------------- */
+/*  -------------------------------   |      |  |_____|  |____|  ___|___  |_____  |_____   |_____   ---------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+@media (width <= 320px) {
+body, html {
+  scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Photos ------------------------------------------------------------------------------------- */
+
+.image-one {
+  background-image: url("./assets/images/Bridgefest_PianoPIc.JPEG");
+  background-size: cover;
+  position: fixed;
+  height: 75vh;
+  width: 60%;
+}
+
+.image-two {
+    background-image: url("./assets/images/Millpond.jpg");
+    background-size: cover;
+    position: fixed;
+    height: 75vh;
+    width: 40%;
+    left: 60%;
+}
+
+.image-three {
+  background-image: url("./assets/images/marty-gtr.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+
+.image-four {
+  background-image: url("./assets/images/marty-c52.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 75%;
+}
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
